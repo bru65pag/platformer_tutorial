@@ -9,7 +9,7 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.image.get_rect(topleft = pos)
 
 
-        #player movemen
+        #player movement
         self.direction = pygame.math.Vector2(0,0)
         self.speed = 8
         self.gravity = 0.8
